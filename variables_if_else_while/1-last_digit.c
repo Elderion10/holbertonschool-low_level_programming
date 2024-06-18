@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number to
- *        the variable n each time it is executed.
+ * main - Prints the last digit of a randomly geberated number
+ *        and whether it is greater than 5, less than 6, or 0.
  *
  * Return: Always 0.
  */
