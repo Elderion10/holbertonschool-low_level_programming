@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Print_triangle - entry point
+ * print_triangle - entry point
  *
  * @size - Size of the triangle
  *
