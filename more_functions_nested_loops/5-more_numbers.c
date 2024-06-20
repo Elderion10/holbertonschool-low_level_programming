@@ -3,7 +3,7 @@
  * more_numbers - Prints x10 the numbers 0 to 14
  * Return: Always 0.
  */
-void more_numbersa(void)
+void more_numbers(void)
 {
 	int a, b;
 		for (a = 1; a <= 10; a++)
