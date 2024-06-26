@@ -11,6 +11,9 @@ char *_strncpy(char *dest, char *src, int n)
 	int x;
 
 	for (x = 0; x < n && src[x] != '\0'; x++)
+		//al tener ambos la misma variable silmplemente
+		//se reemplazara el contenido de una con la
+		//otra a la hora de aumentar el conteo
 	{
 		dest[x] = src[x];
 	}
