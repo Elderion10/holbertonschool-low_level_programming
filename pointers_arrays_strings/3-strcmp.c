@@ -15,6 +15,6 @@ int _strcmp(char *s1, char *s2)
 		contador++;
 	}
 
-	lol = s1[contador] + s2[contador];
+	lol = s1[contador] - s2[contador];
 	return (lol);
 }
