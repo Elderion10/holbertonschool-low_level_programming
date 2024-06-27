@@ -21,7 +21,7 @@ char *cap_string(char *y)
 			}
 			else
 			{
-				for (w = 0; w <= 12; w++)
+				for (w = 0; w <= 13; w++)
 				{
 					if (a[w] == y[v] - 1)
 					{
