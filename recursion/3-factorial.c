@@ -3,15 +3,13 @@
  * factorial - returns the factorial of a
  * given number
  * @n: stores the number
- * Return: -1
+ * Return: -1 if error
  */
 int factorial(int n)
 {
-	factorial(n);
-
-		if (n < 0)
-		{
-			return (-1);
-		}
-		return (0);
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (1);
+	return (n * factorial(n - 1));
 }
