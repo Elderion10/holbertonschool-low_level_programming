@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	total = (int) *argv[1] * (intf) *argv[2];
+	total = (int) *argv[1] * (int) *argv[2];
 
 	printf("%d\n", total);
 
