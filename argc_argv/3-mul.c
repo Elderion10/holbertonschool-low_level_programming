@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - multiplies two numbers
+ * main - entry point
  * @argc: counts the words
  * @argv: pointer
  * Return: 1 if error and 0 if works
