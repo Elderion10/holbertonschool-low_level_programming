@@ -3,7 +3,7 @@
  * main - entry point
  * @argc: counts the words
  * @argv: pointer
- * Return: 1 if error and 0 if works
+ * Return: 0
  */
 int main(int argc, char **argv)
 {
