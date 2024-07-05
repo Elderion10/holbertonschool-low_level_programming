@@ -5,7 +5,7 @@
  *
  * @min: variable
  * @max: variable
- * Return: to pointerf
+ * Return: to pointer
  */
 int *array_range(int min, int max)
 {
