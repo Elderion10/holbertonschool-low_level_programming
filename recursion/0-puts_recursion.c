@@ -8,12 +8,12 @@
  */
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s == '\0') // Base case, is the line code where the loop will stop.
 	{
 		_putchar('\n');
 		return;
 	}
 
-	_putchar(*s);
-	_puts_recursion(s + 1);
+	_putchar(*s); // What I need to do to prints the string?
+	_puts_recursion(s + 1); // How I make sure the loop can work well?
 }
