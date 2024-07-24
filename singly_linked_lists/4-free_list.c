@@ -5,20 +5,13 @@
  */
 void free_list(list_t *head)
 {
-	list_t *nodefree;
-	list_t *node2free;
+	list_t *siguiente;
 
-	nodefree = head;
-	head = NULL;
-
-	nodefree = malloc(sizeof(list_t));
-	node2free = malloc(sizeof(list_t));
-	if (!nodefree)
+	while (head)
 	{
-		free(nodefree);
-	}
-	if (!node2free)
-	{
-		free(node2free);
+		siguiente = head->next;
+		free(head->str);
+		free(head);
+		head = siguiente;
 	}
 }
