@@ -12,7 +12,7 @@ size_t print_dlistint(const dlistint_t *h)
 	{
 		if (!h->n)
 		{
-			return (-1);
+			printf("0");
 		}
 		else
 		{
